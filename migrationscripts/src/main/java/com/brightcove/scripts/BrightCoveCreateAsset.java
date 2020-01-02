@@ -95,7 +95,7 @@ public class BrightCoveCreateAsset {
        
         
         parallelend = System.currentTimeMillis();
-        System.out.println("Time taken :"+(parallelend-parallelstart));
+        logger.debug("Time taken :"+(parallelend-parallelstart));
 
         try
         {
